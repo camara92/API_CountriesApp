@@ -1,0 +1,53 @@
+.filter-container {
+  text-align: center;
+  padding-bottom: 20px;
+}
+input {
+  margin: 20px auto;
+  display: block;
+  font-size: 1.4rem;
+  text-align: center;
+  transition: 0.2s;
+}
+input:focus {
+  border-radius: 30px;
+  background: rgb(238, 238, 238);
+}
+.range-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type="range"] {
+  width: 250px;
+  margin: 0 10px 10px 0;
+}
+.range-container span {
+  font-size: 1.2rem;
+  transform: translateY(-3px);
+}
+.countries-container {
+  display: flex;
+  /* renvoie a la ligne :  */
+  flex-wrap: wrap;
+  text-align: center;
+
+
+}
+.card{
+  flex: 1 0 20%;
+  min-width: 260px;
+  background: rgb(17, 17, 17);
+  margin: 5px;
+  color: rgb(245, 245, 245);
+  border-radius: 20px;
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img {
+  min-width: 250px;
+  /* width: 100px; */
+ 
+  height: 160px;
+  object-fit: cover;
+}
